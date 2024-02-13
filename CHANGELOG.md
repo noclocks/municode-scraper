@@ -30,6 +30,10 @@
 - Add scraped CSV datasets
 - Add GHA for automating changelog
 
+### Refactoring
+
+- Update main.py
+
 ### Testing
 
 - Add test for webscraping (test_webscrape.py)
