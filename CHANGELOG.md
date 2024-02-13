@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Initialize docs folder
 - Initialize readme and changelog
 
 ### Features
