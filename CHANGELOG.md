@@ -19,6 +19,7 @@
 
 ### Features
 
+- Added Dockerfile
 - Add .dockerignore
 - Experimental BING API search
 - Add main.py
