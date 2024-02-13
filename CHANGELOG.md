@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Create reference.md
 - Enhance README with content
 - Add assets folder
 - Initialize docs folder
