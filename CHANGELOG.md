@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Enhance README with content
 - Add assets folder
 - Initialize docs folder
 - Initialize readme and changelog
