@@ -20,6 +20,7 @@
 
 ### Features
 
+- Add municode logo asset images
 - Added Dockerfile
 - Add .dockerignore
 - Experimental BING API search
