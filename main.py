@@ -15,24 +15,6 @@ from webdriver_manager.core.os_manager import ChromeType
 import re
 import requests
 
-# chrome_options = Options()
-
-# determine if local or docker
-# if os.getenv('DOCKER'):
-    # chrome_options.add_argument('--no-sandbox')
-    # chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-dev-shm-usage')
-    # chrome_options.binary_location = '/usr/bin/google-chrome'
-    # chrome_options.add_argument('--disable-gpu')
-    # chrome_options.add_argument('--no-sandbox')
-    # chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-dev-shm-usage')
-# elif os.getenv('LOCAL') == 'True':
-# chrome_options.add_experimental_option("detach", True)
-
-# chrome_service = ChromeService(ChromeDriverManager().install())
-# chrome_service = ChromeService('/usr/bin/chromedriver')
-
 def get_towns_by_state(state: str, driver: webdriver.Chrome):
     """
     Get a list of towns by state from municode.com
@@ -115,3 +97,23 @@ town_urls_tbl = get_towns_by_state('ga', driver)
 town_urls = town_urls_tbl['url'].tolist()
 
 identify_tbl(town_urls[0], driver)
+
+# DEPRECATIONS
+
+# chrome_options = Options()
+
+# determine if local or docker
+# if os.getenv('DOCKER'):
+    # chrome_options.add_argument('--no-sandbox')
+    # chrome_options.add_argument('--headless')
+    # chrome_options.add_argument('--disable-dev-shm-usage')
+    # chrome_options.binary_location = '/usr/bin/google-chrome'
+    # chrome_options.add_argument('--disable-gpu')
+    # chrome_options.add_argument('--no-sandbox')
+    # chrome_options.add_argument('--headless')
+    # chrome_options.add_argument('--disable-dev-shm-usage')
+# elif os.getenv('LOCAL') == 'True':
+# chrome_options.add_experimental_option("detach", True)
+
+# chrome_service = ChromeService(ChromeDriverManager().install())
+# chrome_service = ChromeService('/usr/bin/chromedriver')
