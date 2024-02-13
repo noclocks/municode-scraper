@@ -1,5 +1,7 @@
 # Municode Library Web Scraper Bot
 
+[![Automate Changelog](https://github.com/noclocks/municode-scraper/actions/workflows/changelog.yml/badge.svg)](https://github.com/noclocks/municode-scraper/actions/workflows/changelog.yml)
+
 > [!NOTE]
 > This repo ...
 
