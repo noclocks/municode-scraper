@@ -19,6 +19,7 @@
 
 ### Features
 
+- Add .dockerignore
 - Experimental BING API search
 - Add main.py
 - Add scraped CSV datasets
